@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.0e63d1f8.css",
+    "main.js": "/react-portfolio/static/js/main.3be03cf3.js",
+    "static/media/cpu-clipart.png": "/react-portfolio/static/media/cpu-clipart.bcc849e6735451055f69.png",
+    "static/media/blue_green_cityscape.png": "/react-portfolio/static/media/blue_green_cityscape.079bb8f9524375ef0170.png",
+    "static/media/marco-smile-full.png": "/react-portfolio/static/media/marco-smile-full.9628417b5a3571a77648.png",
+    "static/media/cryptocurrency-mining.png": "/react-portfolio/static/media/cryptocurrency-mining.3e4d43bc8d8fc9b717d6.png",
+    "static/media/Burtons.otf": "/react-portfolio/static/media/Burtons.c46a2405716f236c4a9a.otf",
+    "index.html": "/react-portfolio/index.html",
+    "main.0e63d1f8.css.map": "/react-portfolio/static/css/main.0e63d1f8.css.map",
+    "main.3be03cf3.js.map": "/react-portfolio/static/js/main.3be03cf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e63d1f8.css",
+    "static/js/main.3be03cf3.js"
+  ]
+}
