@@ -1,14 +1,15 @@
-import React from 'react'
+import { React, useState } from "react";
 import { Helmet } from 'react-helmet';
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
-import { BsFillPatchCheckFill } from "react-icons/bs"
+import { BsFillPatchCheckFill, BsFillMoonStarsFill } from "react-icons/bs"
+import { BiDownload } from "react-icons/bi"
 
 import mkk from "../assets/marco-smile-full.png";
 import SYP from "../assets/blue_green_cityscape.png";
 import CPU from "../assets/cpu-clipart.png";
 import BTC from "../assets/cryptocurrency-mining.png";
-import { useState } from "react";
+
+import Resume from "../assets/MK_Resume.pdf";
 
 const Portfolio = () => {
     const [darkMode, setDarkMode] = useState(false);
@@ -30,18 +31,20 @@ const Portfolio = () => {
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-gray-400"/>
               </li>
               <li>
-                  <a
-                      href="public/MK_Resume.pdf"
-                      download="MK_Resume.pdf"
-                      className=" bg-gradient-to-r
-                      from-green-500
-                      to-blue-500
-                      text-white px-4 py-2 rounded-md ml-8
-                      dark:text-gray-200
-                      dark:bg-gradient-to-r
-                      dark:from-blue-500
-                      dark:to-green-500">
-                    <button>Resume</button>
+                <a
+                    href={Resume}
+                    download="MK_Resume.pdf"
+                    type="application/pdf"
+                    className=" bg-gradient-to-r
+                    from-green-500
+                    to-blue-500
+                    text-white px-4 py-2 rounded-md ml-8 inline-flex
+                    dark:text-gray-200
+                    dark:bg-gradient-to-r
+                    dark:from-blue-500
+                    dark:to-green-500">
+                  <BiDownload className="w-5 h-6 mr-2"/>
+                  Resume
                 </a>
               </li>
             </ul>
@@ -62,13 +65,11 @@ const Portfolio = () => {
             </a>
             </div>
             
-           
            <div className="hover:text-green-500 dark:hover:text-blue-500">
             <a href="https://www.linkedin.com/in/marco-kaniecki-70531a225/">
               <AiFillLinkedin className="cursor-pointer" />
             </a>
            </div>
-            
             
             <div className="hover:text-green-500 dark:hover:text-blue-500">
               <a href="mailto: marcokaniecki@gmail.com">
@@ -76,13 +77,11 @@ const Portfolio = () => {
               </a>
             </div>
             
-            
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-green-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 dark:from-blue-500">
             <img src={mkk} alt={""} />
           </div>
         </section>
-
 
         <section>
           <div>
