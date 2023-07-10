@@ -4,10 +4,10 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import { BsFillPatchCheckFill, BsFillMoonStarsFill } from "react-icons/bs"
 import { BiDownload } from "react-icons/bi"
 
-import mkk from "../assets/marco-smile-full.png";
-import SYP from "../assets/blue_green_cityscape.png";
-import CPU from "../assets/cpu-clipart.png";
-import BTC from "../assets/cryptocurrency-mining.png";
+import mkk from "../assets/Hero.png";
+import SYP from "../assets/smart-home.png";
+import CPU from "../assets/processor.png";
+import BTC from "../assets/mining.png";
 
 import Resume from "../assets/MK_Resume.pdf";
 
@@ -54,7 +54,7 @@ const Portfolio = () => {
           
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-green-500 font-medium md:text-6xl dark:text-blue-500">Marco Kaniecki</h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Computer Engineering Student (4th yr.)</h3>
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Electrical and Computer Engineer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
               I teach myself Python in my free time.
               I am interested in learning more about programming and computer security. I constantly have the urge to challenge myself.
@@ -80,7 +80,7 @@ const Portfolio = () => {
             </div>
             
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-green-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 dark:from-blue-500">
+          <div className="relative mx-auto bg-gradient-to-b from-green-500 rounded-full w-80 h-80 mt-20 pt-12 pl-5 overflow-hidden md:h-96 md:w-96 dark:from-blue-500">
             <img src={mkk} alt={""} />
           </div>
         </section>
@@ -158,18 +158,18 @@ const Portfolio = () => {
 
 
               <div className="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-900 dark:border-gray-700">
-                <img className=" border-rounded" src={SYP} alt={""} />
+                <img className=" border-rounded p-10" src={SYP} alt={""} />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Using Deep Learning for Real Estate Appraisal</h5>
 
                   <p className="mb-3 pb-10 font-normal text-gray-700 dark:text-gray-400">
                     Program will analyze property photos and a text description, through leveraging with comparable homes the program will
-                    determine a price for the home. Will become open-source in <span className="text-green-500 dark:text-blue-500">April 2023</span>.
+                    determine a price for the home.
                   </p>
                 </div>
                 <div className="absolute bottom-0 left-0 p-4">
                   <a href="https://github.com/MarcoKaniecki/Deep-Learning-Real-Estate-Appraisal"
-                    className="inline-flex cursor-not-allowed items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-600 rounded-lg focus:ring-4 focus:outline-none dark:bg-gray-600">
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-500 rounded-lg hover:bg-green-800 dark:hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-blue-300 dark:bg-blue-500">
                       Github
                   </a>
                 </div>
@@ -178,7 +178,7 @@ const Portfolio = () => {
 
               
                  <div className="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-900 dark:border-gray-700">
-                  <img className=" border-rounded py-2" src={CPU} alt={""} />
+                  <img className=" border-rounded p-10" src={CPU} alt={""} />
                   <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">XMX Emulator</h5>
 
@@ -198,7 +198,7 @@ const Portfolio = () => {
 
              
               <div className="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-900 dark:border-gray-700">
-                <img className=" border-rounded px-2 py-6" src={BTC} alt={""} />
+                <img className=" border-rounded p-10" src={BTC} alt={""} />
                 <div className="p-5">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bitcoin Mining Simulator</h5>
                   <p className="mb-3 pb-10 font-normal text-gray-700 dark:text-gray-400">
