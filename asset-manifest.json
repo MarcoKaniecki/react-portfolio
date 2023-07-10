@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c1da40de.css",
-    "main.js": "/react-portfolio/static/js/main.319e4ba7.js",
-    "static/media/cpu-clipart.png": "/react-portfolio/static/media/cpu-clipart.bcc849e6735451055f69.png",
-    "static/media/blue_green_cityscape.png": "/react-portfolio/static/media/blue_green_cityscape.079bb8f9524375ef0170.png",
-    "static/media/marco-smile-full.png": "/react-portfolio/static/media/marco-smile-full.9628417b5a3571a77648.png",
-    "static/media/cryptocurrency-mining.png": "/react-portfolio/static/media/cryptocurrency-mining.3e4d43bc8d8fc9b717d6.png",
+    "main.css": "/react-portfolio/static/css/main.98ca0aae.css",
+    "main.js": "/react-portfolio/static/js/main.211ba97c.js",
     "static/media/MK_Resume.pdf": "/react-portfolio/static/media/MK_Resume.9244ac9e073d9c71faa8.pdf",
+    "static/media/Hero.png": "/react-portfolio/static/media/Hero.16506d75fd3d62cd174b.png",
+    "static/media/mining.png": "/react-portfolio/static/media/mining.c70b00051c5accb9d027.png",
     "static/media/Burtons.otf": "/react-portfolio/static/media/Burtons.c46a2405716f236c4a9a.otf",
+    "static/media/smart-home.png": "/react-portfolio/static/media/smart-home.ea4f15abeb1ba3e0aacf.png",
+    "static/media/processor.png": "/react-portfolio/static/media/processor.5384d08cea8a5a02bb33.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c1da40de.css.map": "/react-portfolio/static/css/main.c1da40de.css.map",
-    "main.319e4ba7.js.map": "/react-portfolio/static/js/main.319e4ba7.js.map"
+    "main.98ca0aae.css.map": "/react-portfolio/static/css/main.98ca0aae.css.map",
+    "main.211ba97c.js.map": "/react-portfolio/static/js/main.211ba97c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1da40de.css",
-    "static/js/main.319e4ba7.js"
+    "static/css/main.98ca0aae.css",
+    "static/js/main.211ba97c.js"
   ]
 }
